@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: changeme
-        image: harbor.pks.ict.prod/workspace/image
+        image: colenak.adzkia.web.id/demo/image
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80
